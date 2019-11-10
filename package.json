@@ -1,0 +1,28 @@
+{
+  "name": "gb2midi64bit",
+  "version": "1.0.0",
+  "main": "",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier '**/*.{ts,js,json,yaml}'",
+    "tslint": "tslint -p tsconfig.json",
+    "lint": "yarn prettier --check && yarn tslint",
+    "fix": "yarn prettier --write && yarn tslint --fix",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "yarn run webpack"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.39.8",
+    "prettier": "prettier/prettier",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "file-saver": "*",
+    "webpack": "^4.41.2"
+  }
+}
