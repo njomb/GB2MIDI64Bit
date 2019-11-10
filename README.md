@@ -1,6 +1,6 @@
 # GB2MIDI64bit
 
-Tools for converting Garageband (Mac OS X) Aif loop files to MIDI files. Based on implmentation by @larkob -> https://github.com/larkob/GB2MIDI.
+Tools for converting Garageband (Mac OS X) Aif loop files to MIDI files. Based on implmentation by [@larkob](https://github.com/larkob) -> https://github.com/larkob/GB2MIDI.
 
 Implmented in TypeScript and bundled with WebPack.
 
